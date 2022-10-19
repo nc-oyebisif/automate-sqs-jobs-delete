@@ -1,0 +1,16 @@
+{
+  "name": "sqs-jobs-delete",
+  "version": "1.0.0",
+  "description": "Delete specified SQS jobs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Femi Oyebisi",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1236.0",
+    "nodemon": "^2.0.20"
+  }
+}
